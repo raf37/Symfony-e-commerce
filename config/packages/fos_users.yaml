@@ -1,0 +1,7 @@
+fos_user:
+  db_driver: orm
+  user_class: Aimeos\ShopBundle\Entity\FosUser
+  firewall_name: aimeos_myaccount
+  from_email:
+    address: "me@example.com"
+    sender_name: "Test shop"
